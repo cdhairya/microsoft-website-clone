@@ -78,6 +78,15 @@ ul{
     opacity: 0.9;
 }
 
+.dark{
+    color: #fff;
+}
+
+.dark .btn{
+    background: #f4f4f4;
+    color: #333;
+}
+
 /* Showcase */
 .showcase{
     width: 100%;
@@ -141,6 +150,32 @@ ul{
     padding: 50px 0 0 30px;
 }
 
-.xbox p{
+.xbox p, .carbon p{
     margin: 10px 0 20px;
+}
+/* Carbon section */
+.carbon{
+    height: 350px;
+    width: 100%;
+    background-image: url('https://i.ibb.co/72cgtsz/carbon.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carbon .content{
+    width: 55%;
+    padding: 100px 0 0 30px;
+}
+
+/* Follow section */
+.follow{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 30px 0 30px;
+}
+
+.follow *{
+    margin-right: 10px;
 }
